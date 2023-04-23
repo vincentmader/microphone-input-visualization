@@ -1,0 +1,5 @@
+#+title: Visualization of Computer Microphone Input
+
+- TODO: Add labels to plot axes.
+
+[[./example.png]]
