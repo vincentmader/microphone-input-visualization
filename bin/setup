@@ -1,4 +1,7 @@
 #!/bin/sh
 
-[ -d ../.venv ] || python3 -m virtualenv ../.venv
-../.venv/bin/pip install -r ../requirements.txt
+# Create virtual environment for Python, if not already existing.
+  [ -d ../.venv ] || python3 -m virtualenv ../.venv
+
+# Install Python dependencies.
+  ../.venv/bin/pip install -r ../requirements.txt
