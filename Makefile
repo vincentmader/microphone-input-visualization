@@ -1,4 +1,4 @@
 run:
-	cd ./src && ../.venv/bin/python ./main.py
+	cd bin && ./run.sh
 setup:
 	cd ./bin && ./setup
