@@ -1,3 +1,4 @@
+from pathlib import Path
 import queue
 
 from matplotlib.animation import FuncAnimation
@@ -5,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sounddevice as sd
 
-MPL_THEME = "~/.config/matplotlib/dark.mplstyle"
+MPL_THEME = Path("..", "lib", "mpl-styles", "dark.mplstyle")
 
 
 def setup_plot():
